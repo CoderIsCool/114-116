@@ -1,0 +1,20 @@
+button:hover{
+    background-color:lightgreen;
+}
+canvas{
+   animation-name:examples;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+
+}
+@keyframes examples{
+    from{
+        box-shadow: 2px 2px 40px teal;
+    }
+    to{
+        box-shadow: 2px 2px 40px palevioletred;
+    }
+}
+h3{
+    font-size: 23px !important;
+}
